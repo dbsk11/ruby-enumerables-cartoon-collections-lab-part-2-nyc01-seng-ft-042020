@@ -2,9 +2,9 @@ def square_array(array)
   array.map do |squares|
     squares ** 2
   end
+end
   # Use an Enumerable to square every element in the passed in array
   # Return a new array of the results
-end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |caps|
